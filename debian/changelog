@@ -1,0 +1,5 @@
+python-oauth2client (1.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #719971)
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 17 Aug 2013 11:12:18 +0200
