@@ -1,11 +1,12 @@
 Source: python-oauth2client
 Section: python
 Priority: optional
-Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
-Uploaders: Julien Danjou <acid@debian.org>,
-           Thomas Goirand <zigo@debian.org>,
-           Mehdi Abaakouk <sileht@sileht.net>
-Build-Depends: debhelper (>= 9), python-setuptools, python-all (>= 2.6.6-3~), openstack-pkg-tools
+Maintainer: PKG Cloud <cloud-packages@lists.alioth.debian.org>
+Uploaders: Jimmy Kaplowitz <jimmy@debian.org>, Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               openstack-pkg-tools,
+               python-all (>= 2.6.6-3~),
+               python-setuptools
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-oauth2client.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-oauth2client.git
@@ -14,7 +15,7 @@ Homepage: http://code.google.com/p/google-api-python-client/
 Package: python-oauth2client
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${python:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${python:Depends}
 Recommends: ${python:Recommends}
 Description: OAuth 2.0 client library
  The oauth2client is a client library for OAuth 2.0.
