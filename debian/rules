@@ -1,8 +1,16 @@
 #!/usr/bin/make -f
 
+PYTHONS:=$(shell pyversions -vr)
+PYTHON3S:=$(shell py3versions -vr)
+
 UPSTREAM_GIT = git://github.com/<please-user>/oauth2client.git
 include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
 	dh $@  --with python2
 
+override_dh_auto_install:
+	dh_auto_install
+	set -e && for pyvers in $(PYTHONS); do \
+		rm -r $(CURDIR)/debian/python-oauth2client//usr/lib/python$$pyvers/dist-packages/uritemplate/; \
+	done

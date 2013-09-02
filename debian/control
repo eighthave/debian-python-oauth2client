@@ -15,7 +15,7 @@ Homepage: http://code.google.com/p/google-api-python-client/
 Package: python-oauth2client
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: python-uritemplate, ${misc:Depends}, ${python:Depends}
 Recommends: ${python:Recommends}
 Description: OAuth 2.0 client library
  The oauth2client is a client library for OAuth 2.0.

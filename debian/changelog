@@ -1,3 +1,9 @@
+python-oauth2client (1.2-2) unstable; urgency=low
+
+  * Removes embedded uritemplate folder from binary.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 02 Sep 2013 09:00:22 +0000
+
 python-oauth2client (1.2-1) unstable; urgency=low
 
   * Initial release. (Closes: #719971)
