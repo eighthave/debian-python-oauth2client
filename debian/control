@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 9),
                python-all (>= 2.6.6-3~),
                python-setuptools
 Standards-Version: 3.9.4
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-oauth2client.git
-Vcs-Git: git://anonscm.debian.org/openstack/python-oauth2client.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=cloud/python-oauth2client.git
+Vcs-Git: git://anonscm.debian.org/cloud/python-oauth2client.git
 Homepage: http://code.google.com/p/google-api-python-client/
 
 Package: python-oauth2client
