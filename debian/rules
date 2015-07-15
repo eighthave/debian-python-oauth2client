@@ -18,7 +18,6 @@ override_dh_auto_install:
 		python$$pyvers setup.py install --install-layout=deb \
 			--root $(CURDIR)/debian/python3-oauth2client; \
 	done
-	rm -r $(CURDIR)/debian/python*-oauth2client/usr/lib/python*/dist-packages/uritemplate/
 
 # Commands not to run
 override_dh_installcatalogs:
