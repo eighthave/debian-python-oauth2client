@@ -1,3 +1,10 @@
+python-oauth2client (1.4.12-1) unstable; urgency=low
+
+  * update to latest upstream version v1.4.12
+  * update URLs: Homepage, Vcs-*, debian/watch
+
+ -- Hans-Christoph Steiner <hans@eds.org>  Wed, 15 Jul 2015 16:39:42 -0700
+
 python-oauth2client (1.2-3) unstable; urgency=medium
 
   * Fixes VCS URLs.
